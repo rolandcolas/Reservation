@@ -1,0 +1,83 @@
+/* AdminHome.css */
+
+.admin-home {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #555;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.content h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+table thead {
+    background-color: #333;
+    color: white;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table td {
+    text-align: center;
+}
+
+table td button {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+table td button:hover {
+    background-color: darkred;
+}
